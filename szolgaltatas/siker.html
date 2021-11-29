@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/siker.css">
+    <title>Sikeres fizetés!</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Nyitóoldal</a></li>
+                <li><a href="services.html">Csomagjaink</a></li>
+                <li><a href="contact.html">Kapcsolat</a></li>
+                <li><a href="">ÁSZF</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <img src="assets/checkmark.png" alt="">
+    </div>
+    <h1 align="center">Sikeres fizetés</h2>
+    <h2 align="center">Az emailben kapott belépési adaokkal pár percen belül igénybe veheti a szolgáltatást</h2>
+    <h2 align=center>Ha a szolgáltatást le szeretné mondani vagy valamilyen problémja van, vegye fel velünk a kapcsolatot a <a href="contact.html" target="_blank" rel="noopener noreferrer">kapcsolatok</a> oldalon</h2>
+    <h2 align="center">A szolgáltatás lemondását az emailben kapott azonosítóra hivetkozva teheti meg pl.:12345BS</h2>
+    <h2 align="center"><a href="index.html">Vissza a nyitóoldalra</a></h2>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("fekete");
+            }
+            else{
+                $("nav").removeClass("fekete");
+            }
+        });
+
+    </script>
+    
+</body>
+</html>
